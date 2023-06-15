@@ -49,7 +49,6 @@ app
         })
     })
     .post(/\/pdf/, (req, res) => {
-        console.log(req)
         if (!req.body) res.sendStatus(400)
         pdf.execute(req.body)
             .then(data => {

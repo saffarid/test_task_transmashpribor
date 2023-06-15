@@ -36,7 +36,6 @@ const init = async () => {
             await client.query(insert, [title, secret, file])
         }
 
-        console.log(files)
     } catch (err){
         console.log(['error', err])
     }
