@@ -9,7 +9,7 @@
 				<table>
 					<thead>
 					<tr>
-						<th colspan="2">Список PDF-файлов(скачивание из static директории)</th>
+						<th colspan="2">Список PDF-файлов</th>
 					</tr>
 					</thead>
 					<tbody>
